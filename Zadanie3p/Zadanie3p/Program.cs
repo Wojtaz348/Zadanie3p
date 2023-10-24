@@ -131,7 +131,7 @@ Adres adresMagazynu = new Adres("Ul. Morska 12", "10-133", "Warszawa", "10", "C"
             Console.WriteLine("Podaj opis produktu:");
             string opis = Console.ReadLine();
             produkt nowy = new produkt(nazwaProducenta, nazwaProduktu, kategoria, kodProduktu, cena, opis);
-            Console.WriteLine("Produkt pomyslnie zostal dodny");
+            Console.WriteLine("Produkt pomyślnie został dodany");
         }
         else
         {
@@ -159,7 +159,7 @@ Adres adresMagazynu = new Adres("Ul. Morska 12", "10-133", "Warszawa", "10", "C"
                 Console.WriteLine("Podaj opis produktu:");
                 string opis = Console.ReadLine();
                 produkt nowy = new produkt(nazwaProducenta, nazwaProduktu, kategoria, kodProduktu, cena, opis);
-                Console.WriteLine("Produkt pomyślnie zostal dodny");
+                Console.WriteLine("Produkt pomyślnie został dodany");
             }
             else
             {
