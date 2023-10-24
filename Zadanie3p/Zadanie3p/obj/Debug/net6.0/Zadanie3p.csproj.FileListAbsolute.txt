@@ -1,0 +1,14 @@
+C:\Users\student\source\repos\Zadanie3p\Zadanie3p\bin\Debug\net6.0\Zadanie3p.exe
+C:\Users\student\source\repos\Zadanie3p\Zadanie3p\bin\Debug\net6.0\Zadanie3p.deps.json
+C:\Users\student\source\repos\Zadanie3p\Zadanie3p\bin\Debug\net6.0\Zadanie3p.runtimeconfig.json
+C:\Users\student\source\repos\Zadanie3p\Zadanie3p\bin\Debug\net6.0\Zadanie3p.dll
+C:\Users\student\source\repos\Zadanie3p\Zadanie3p\bin\Debug\net6.0\Zadanie3p.pdb
+C:\Users\student\source\repos\Zadanie3p\Zadanie3p\obj\Debug\net6.0\Zadanie3p.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\source\repos\Zadanie3p\Zadanie3p\obj\Debug\net6.0\Zadanie3p.AssemblyInfoInputs.cache
+C:\Users\student\source\repos\Zadanie3p\Zadanie3p\obj\Debug\net6.0\Zadanie3p.AssemblyInfo.cs
+C:\Users\student\source\repos\Zadanie3p\Zadanie3p\obj\Debug\net6.0\Zadanie3p.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\Zadanie3p\Zadanie3p\obj\Debug\net6.0\Zadanie3p.dll
+C:\Users\student\source\repos\Zadanie3p\Zadanie3p\obj\Debug\net6.0\refint\Zadanie3p.dll
+C:\Users\student\source\repos\Zadanie3p\Zadanie3p\obj\Debug\net6.0\Zadanie3p.pdb
+C:\Users\student\source\repos\Zadanie3p\Zadanie3p\obj\Debug\net6.0\Zadanie3p.genruntimeconfig.cache
+C:\Users\student\source\repos\Zadanie3p\Zadanie3p\obj\Debug\net6.0\ref\Zadanie3p.dll
