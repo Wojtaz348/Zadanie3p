@@ -9,56 +9,56 @@ Adres adres5 = new Adres("poprzeczna", "53-310", "czestochowa", "41", "2a");
 produkt iphone = new produkt("apple", "iphone 15pro", "telefon", "48951", 32000, "najlepsza telefon na rynku");
 Adres adresMagazynu = new Adres("Ul. Morska 12", "10-133", "Warszawa", "10", "C");
 {
-    Console.WriteLine("<--MENU-->");
+    Console.WriteLine("MENU");
     Console.WriteLine("Wybierz opcje:");
-    Console.WriteLine("1. Dodaj/Edytuj/Usun - Magazyn");
-    Console.WriteLine("2. Dodaj/Edytuj/Usun - produkt");
-    Console.WriteLine("3. Dodaj/Usun - produkt z Magazynu");
-    Console.WriteLine("4. Wyjscie");
+    Console.WriteLine("1.Edytuj/Dodaj/Usun - Magazyn");
+    Console.WriteLine("2.Edytuj/Dodaj/Usun - Produkt");
+    Console.WriteLine("3.Usun/Dodaj - Produkt z Magazynu");
+    Console.WriteLine("4.Wyjscie");
 
 
     string wybor = Console.ReadLine();
     switch (wybor)
     {
         case "1":
-            Console.WriteLine("<MAGAZYN");
+            Console.WriteLine("MAGAZYN");
             Console.WriteLine("Wybierz opcje:");
-            Console.WriteLine("1. Dodaj");
-            Console.WriteLine("2. Edytuj");
-            Console.WriteLine("3. Usun");
-            Console.WriteLine("4. Wyswietl magazyny");
-            Console.WriteLine("5. Wyjscie");
+            Console.WriteLine("1.DODAJ");
+            Console.WriteLine("2.EDYTUJ");
+            Console.WriteLine("3.USUŃ");
+            Console.WriteLine("4.WYŚWIETL MAGAZYNY");
+            Console.WriteLine("5.WYJŚCIE");
             string wybor1 = Console.ReadLine();
             switch (wybor1)
             {
                 case "1":
-                    Console.WriteLine("dodaj");
+                    Console.WriteLine("Dodaj");
                     break;
                 case "2":
-                    Console.WriteLine("edytuj");
+                    Console.WriteLine("Edytuj");
                     break;
                 case "3":
-                    Console.WriteLine("usun");
+                    Console.WriteLine("Usuń");
                     break;
                 case "4":
-                    Console.WriteLine("wyswietl");
+                    Console.WriteLine("Wyświetl");
                     break;
                 case "5":
                     Console.WriteLine("Program zostanie zamkniety"); Environment.Exit(0);
                     break;
                 default:
-                    Console.WriteLine("nieprawidlowy wybor");
+                    Console.WriteLine("nieprawidłowy wybor");
                     break;
             }
             break;
         case "2":
             Console.WriteLine("PRODUKT");
             Console.WriteLine("Wybierz opcje:");
-            Console.WriteLine("1. Dodaj");
-            Console.WriteLine("2. Edytuj");
-            Console.WriteLine("3. Usun");
-            Console.WriteLine("4. Wyswietl produkty");
-            Console.WriteLine("5. Wyjscie");
+            Console.WriteLine("1.DODAJ");
+            Console.WriteLine("2.EDYTUJ");
+            Console.WriteLine("3.USUŃ");
+            Console.WriteLine("4.WYŚWIETL PRODUKTY");
+            Console.WriteLine("5.WYJŚCIE");
             string wybor2 = Console.ReadLine();
             switch (wybor2)
             {
@@ -66,29 +66,29 @@ Adres adresMagazynu = new Adres("Ul. Morska 12", "10-133", "Warszawa", "10", "C"
                     dodaj_z_magazynu();
                     break;
                 case "2":
-                    Console.WriteLine("edytuj");
+                    Console.WriteLine("Edytuj");
                     break;
                 case "3":
-                    Console.WriteLine("usun");
+                    Console.WriteLine("Usuń");
                     break;
                 case "4":
-                    Console.WriteLine("wyswietl");
+                    Console.WriteLine("Wyświetl");
                     break;
                 case "5":
-                    Console.WriteLine("Program zostanie zamkniety"); Environment.Exit(0);
+                    Console.WriteLine("Program zostanie zamknięty"); Environment.Exit(0);
                     break;
                 default:
-                    Console.WriteLine("Wybor jest nieprawidlowy");
+                    Console.WriteLine("Wybor jest nieprawidłowy");
                     break;
             }
             break;
         case "3":
             Console.WriteLine("PRODUKT Z MAGAZYNU");
             Console.WriteLine("Wybierz opcje:");
-            Console.WriteLine("1. Dodaj");
-            Console.WriteLine("2. Usun");
-            Console.WriteLine("3. Wyswietl produkty w magazynie");
-            Console.WriteLine("4. Wyjscie");
+            Console.WriteLine("1.DODAJ");
+            Console.WriteLine("2.USUŃ");
+            Console.WriteLine("3.WYŚWIETL PRODUKT Z MAGAZYNU");
+            Console.WriteLine("4.WYJŚCIE");
             string wybor3 = Console.ReadLine();
             switch (wybor3)
             {
@@ -99,15 +99,15 @@ Adres adresMagazynu = new Adres("Ul. Morska 12", "10-133", "Warszawa", "10", "C"
                 case "3":
                     //wyswietlProduktyWMagazynie();
                 case "4":
-                    Console.WriteLine("Porgram zostanie pomyslnie zamkniety"); Environment.Exit(0);
+                    Console.WriteLine("Porgram zostanie pomyślnie zamknięty"); Environment.Exit(0);
                     break;
                 default:
-                    Console.WriteLine(" wybor nieprawidlowy ");
+                    Console.WriteLine(" wybor nieprawidłowy ");
                     break;
             }
             break;
         case "4":
-            Console.WriteLine("Program zostanie zamkniety"); Environment.Exit(0);
+            Console.WriteLine("Program zostanie zamknięty"); Environment.Exit(0);
             break;
         default:
             Console.WriteLine("wybor nieprawidlowy ");
@@ -159,11 +159,11 @@ Adres adresMagazynu = new Adres("Ul. Morska 12", "10-133", "Warszawa", "10", "C"
                 Console.WriteLine("Podaj opis produktu:");
                 string opis = Console.ReadLine();
                 produkt nowy = new produkt(nazwaProducenta, nazwaProduktu, kategoria, kodProduktu, cena, opis);
-                Console.WriteLine("Produkt pomyslnie zostal dodny");
+                Console.WriteLine("Produkt pomyślnie zostal dodny");
             }
             else
             {
-                Console.WriteLine("Nieprawidlowe cena produktu. Produkt nie zostanie  dodany pomyslnie");
+                Console.WriteLine("Nieprawidłowa cena produktu. Produkt nie zostanie  dodany pomyślnie");
             }
         }
 
@@ -198,7 +198,7 @@ miejscowosc, string numerLokalu, string numerPosesji)
 
 public class Magazyn
 {
-    public List<produkt> produkty;
+    public List<produkt>produkty;
     public Adres adresMagazynu;
     public Magazyn(List<produkt> produkty, Adres
 adresMagazynu)
