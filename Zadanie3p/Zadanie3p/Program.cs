@@ -110,7 +110,7 @@ Adres adresMagazynu = new Adres("Ul. Morska 12", "10-133", "Warszawa", "10", "C"
             Console.WriteLine("Program zostanie zamknięty"); Environment.Exit(0);
             break;
         default:
-            Console.WriteLine("wybor nieprawidlowy ");
+            Console.WriteLine("wybor nieprawidłowy ");
             break;
 
     }
